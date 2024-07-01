@@ -71,5 +71,5 @@
 
 [在线latex网站](https://www.tablesgenerator.com/)
 
-
+[数模论文](https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/qkt_sxjm_lw_lwzs.shtml)
 
