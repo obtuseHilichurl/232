@@ -73,3 +73,6 @@
 
 [数模论文](https://dxs.moe.gov.cn/zx/hd/sxjm/sxjmlw/qkt_sxjm_lw_lwzs.shtml)
 
+[edx中国课程](https://www.edx.org/edxchina)
+
+[edx课程](https://www.edx.org/)
