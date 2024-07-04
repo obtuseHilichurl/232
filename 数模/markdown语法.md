@@ -106,9 +106,9 @@ ___
 
 ​	实际上就是把超链接显示名改成图片。链接图片效果如下：
 
-​	[![速查表1](markdown基础语法.png)](https://www.bilibili.com/video/BV1mD42137UD/?spm_id_from=333.999.0.0&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
+​	[![速查表1](图片\markdown基础语法.png)](https://www.bilibili.com/video/BV1mD42137UD/?spm_id_from=333.999.0.0&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
 
-[![速查表2](markdown扩展语法.png)](https://www.bilibili.com/video/BV1S2421w7Bc/?spm_id_from=333.788.recommend_more_video.6&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
+[![速查表2](图片\markdown扩展语法.png)](https://www.bilibili.com/video/BV1S2421w7Bc/?spm_id_from=333.788.recommend_more_video.6&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
 
 
 ​	~~懒得再写了~~，前面的区域请以后再来探索吧！
