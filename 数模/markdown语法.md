@@ -106,9 +106,9 @@ ___
 
 ​	实际上就是把超链接显示名改成图片。链接图片效果如下：
 
-​	[![速查表1](图片\markdown基础语法.png)](https://www.bilibili.com/video/BV1mD42137UD/?spm_id_from=333.999.0.0&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
+​	[![速查表1](https://github.com/obtuseHilichurl/232/blob/main/%E6%95%B0%E6%A8%A1/%E5%9B%BE%E7%89%87/markdown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95.png?raw=true)](https://www.bilibili.com/video/BV1mD42137UD/?spm_id_from=333.999.0.0&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
 
-[![速查表2](图片\markdown扩展语法.png)](https://www.bilibili.com/video/BV1S2421w7Bc/?spm_id_from=333.788.recommend_more_video.6&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
+[![速查表2](https://github.com/obtuseHilichurl/232/blob/main/%E6%95%B0%E6%A8%A1/%E5%9B%BE%E7%89%87/markdown%E6%89%A9%E5%B1%95%E8%AF%AD%E6%B3%95.png?raw=true)](https://www.bilibili.com/video/BV1S2421w7Bc/?spm_id_from=333.788.recommend_more_video.6&vd_source=39ea2de87b63308a12bbabad318ba0fe "肖宇是臭的")
 
 
 ​	~~懒得再写了~~，前面的区域请以后再来探索吧！
