@@ -1,6 +1,6 @@
 # 学习latex
 
-​	学习了latex的语法，基本流程如下：[速成教程](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) -> [尝试实践](https://www.tablesgenerator.com/) -> [深度理解](https://lib.ustc.edu.cn/wp-content/uploads/2023/10/Latexlecture2023-1.pdf)。
+​	学习了latex的语法，基本流程如下：[速成教程](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) -> [尝试实践](https://www.tablesgenerator.com/) -> [深度理解](https://lib.ustc.edu.cn/wp-content/uploads/2023/10/Latexlecture2023-1.pdf)&[复习](https://b23.tv/M0mKFBF)。
 
 ​	主要语法直接用注释解释，长的会在下方文字解释。
 
