@@ -2,7 +2,7 @@
 
 ##### 参考网址
 
-[B站教程](https://www.bilibili.com/video/BV17T4y1K7sL/?spm_id_from=333.337.search-card.all.click&vd_source=39ea2de87b63308a12bbabad318ba0fe)、[CSDN教程](https://blog.csdn.net/weixin_44068654?type=blog)
+[B站教程](https://www.bilibili.com/video/BV17T4y1K7sL/?spm_id_from=333.337.search-card.all.click&vd_source=39ea2de87b63308a12bbabad318ba0fe)、[CSDN某用户主页](https://blog.csdn.net/weixin_44068654?type=blog)、[CSDN上某教程](https://blog.csdn.net/sunyueqinghit/article/details/81708836?spm=1001.2014.3001.5502)……
 
 ---
 
@@ -46,12 +46,16 @@
 
 ##### 集合
 
-集合与属性是Lingo中的重要概念，其中集又分为原始集和派生集。可以使用以下代码格式来定义一个原始集：
+集合与属性是Lingo中的重要概念，其中集又分为原始集和派生集。
+
+原始集是模型中最基础的集合，直接定义集合的元素，一般在SETS段中定义，并包括具体的元素或范围。派生集是从一个或多个原始集派生出来的集合，可以表示原始集之间的关系或组合。
+
+可以使用以下代码格式来定义一个集：
 
 ```Lingo
 SETS：
-　　原始集名/1....n（或1,2,3,...）/:属性1，属性2；
-　　派生集名(原始集名1，原始集名2...)：属性1，属性2；
+　　原始集名/1....n（或1,2,3,...）/:属性1，属性2； 
+　　派生集名(原始集名1，原始集名2...)：属性1，属性2； 
 ENDSETS
 ```
 
@@ -86,6 +90,8 @@ TOTAL_PRODUCTION: 450（所有工厂的生产量总和：100 + 150 + 200）
 TOTAL_COST: 75（所有工厂的成本总和：20 + 25 + 30）
 ~~~
 
+![3](Lingo_3.png)
+
 ---
 
 ##### 函数
@@ -111,10 +117,22 @@ TOTAL_COST: 75（所有工厂的成本总和：20 + 25 + 30）
    - @bnd(L,x,U) 限制L≤x≤U，也可以取消x非负的约束
    - @free(x) 取消对变量x 的默认下界为0 的限制，即x 可以取任意实数。(Lingo默认x为非负数)
    - @gin(x) 限制x 为整数在默认情况下，LINGO 规定变量是非负的，也就是说下界为0，上界为+∞。
-3. 集循环函数  (???)
-4. 辅助函数  (???)
+3. 集循环函数  (利用集合的元素(下标)进行循环操作)
 
-- 外部函数  (???)
+​	@function(setname[(set_index_list)[|condition]]:expression_list);
+
+​	其中function是集合函数名(FOR、MAX、MIN、PROD、SUM之一)，setname是集合名，set_index_list是集合索引列表(有时可省略)，condition用逻辑表达式描述过滤条件(有时可省略)，expression_list是一个表达式(FOR函数可以一组)。
+
+五个集合函数名的含义：
+@FOR(集合元素的循环函数)： 对集合setname的每个元素独立地生成表达式，表达式由expression_list描述（通常是优化问题的约束）。
+@MAX（集合属性的最大值函数）：返回集合setname上的表达式的最大值。
+@MIN（集合属性的最小值函数）：返回集合setname上的表达式的最小值。
+@PROD（集合属性的乘积函数）： 返回集合setname上的表达式的积。
+@SUM(集合属性的求和函数):返回集合setname上的表达式的和。
+
+更多其他内置函数请看教程。
+
+- 外部函数  (略)
 
 ---
 
@@ -154,6 +172,7 @@ TOTAL_COST: 75（所有工厂的成本总和：20 + 25 + 30）
 4. 初始段：与上相同，如求出一个好的迭代初始值。
 5. 计算段：对原始数据进行计算处理。
 
----
+实际上分为几个段并没有硬性规则，上诉内容也只是一种比较好理解，比较规范的模版。实际上贴合自己需求就行。
 
-==施工中！==
+
+
